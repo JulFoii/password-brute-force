@@ -10,7 +10,7 @@ namespace BruteForce
         public static string password;
         static void Main(string[] args)
         {
-            Console.WriteLine("Bitte geben Sie das Passwort ein welches überprüft werden soll:");
+            Console.WriteLine("Please write a password or phrase that should be checked:");
 
             password = Console.ReadLine();
             
