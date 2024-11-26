@@ -7,10 +7,13 @@ namespace BruteForce
     class Program
     {
 
-        public static string password = "abc";
+        public static string password;
         static void Main(string[] args)
         {
+            Console.WriteLine("Bitte geben Sie das Passwort ein welche sÜberprüft werden soll:");
 
+            password = Console.ReadLine();
+            
             bruteForce();
 
             Console.ReadKey();
